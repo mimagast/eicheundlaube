@@ -1,0 +1,45 @@
+/*
+ *  Eiche und Laube - CSS
+ * ----------------------------------
+ *
+ *  Index
+ * ----------------------------------
+ * - Global Styles
+ * - Typography
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ * - Media Queries
+ + ----------------------------------
+ */
+
+
+/*  Global Styles
+ * ---------------------------------- */
+body {
+
+}
+
+.main-container {
+  background-color: #FBFBFB;
+}
+
+footer {
+  background-color: #4A494C;
+}
+
+.footer-bottom {
+  background-color: #3C3C3E;
+}
+
+/*  Typography
+ * ---------------------------------- */

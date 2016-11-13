@@ -1,0 +1,28 @@
+name = Eiche und Laube
+description = Uses the jsDelivr CDN for all CSS and JavaScript.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Header'
+regions[prefix]         = 'Prefix'
+regions[content]        = 'Content'
+regions[sidebar]        = 'Sidebar'
+regions[suffix]         = 'Suffix'
+regions[footer]         = 'Footer'
+regions[footer_bottom]  = 'Footer Bottom'
+
+; regions[page_top]       = 'Page top'
+; regions[page_bottom]    = 'Page bottom'
+; regions[help]           = 'Help'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
