@@ -75,9 +75,7 @@
 ?>
 <?php if (isset($messages) && $messages !== ''): ?>
   <section id="region-messages">
-    <!-- <div class="container"> -->
-      <?php print $messages; ?>
-    <!-- </div> -->
+    <?php print $messages; ?>
   </section>
 <?php endif; ?>
 
@@ -121,7 +119,7 @@
 
 <?php if (isset($page['header']) && !empty($page['header'])): ?>
   <section id="region-header">
-    <div class="">
+    <div class="container">
       <?php print render($page['header']); ?>
     </div>
   </section>  <!-- /#header -->
@@ -137,13 +135,6 @@
 
 <div class="main-container">
   <div class="container">
-
-    <header role="banner" id="page-header">
-      <?php if (!empty($site_slogan)): ?>
-        <p class="lead"><?php print $site_slogan; ?></p>
-      <?php endif; ?>
-    </header> <!-- /#page-header -->
-
     <div class="row">
 
       <section<?php print $content_column_class; ?>>

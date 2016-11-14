@@ -1,0 +1,14 @@
+.collapse {
+	display: block !important;
+}
+
+.panel-group > * {
+	margin-bottom: 5px;
+}
+
+.panel-heading h3:after,
+.panel-group[role] .panel-body:before {
+	content: "";
+	display: none;
+}
+

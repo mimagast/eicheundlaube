@@ -3,7 +3,6 @@ description = Uses the jsDelivr CDN for all CSS and JavaScript.
 core = 7.x
 base theme = bootstrap
 
-
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
@@ -25,4 +24,12 @@ regions[footer_bottom]  = 'Footer Bottom'
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
 
+stylesheets[all][] = css/bootstrap.min.css
 stylesheets[all][] = css/style.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+
+scripts[] = js/bootstrap.min.js
+scripts[] = js/scripts.js

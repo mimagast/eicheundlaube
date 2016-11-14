@@ -1,0 +1,4 @@
+name        = CKEditor Bootstrap
+description = "Add bootstrap widgets to CKEditor."
+core        = 7.x
+package     = User interface

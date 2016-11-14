@@ -1,11 +1,12 @@
 /*
- *  Eiche und Laube - CSS
+ * Eiche und Laube - CSS
  * ----------------------------------
  *
- *  Index
+ * Index
  * ----------------------------------
- * - Global Styles
- * - Typography
+ * Global Styles
+ * Typography
+ * Navbar (Collapse)
  *
  *
  *
@@ -17,29 +18,115 @@
  *
  *
  *
+ * Media Queries
  *
- * - Media Queries
- + ----------------------------------
+ * Backend Styles
+ * ----------------------------------
  */
 
 
-/*  Global Styles
+/* Global Styles
  * ---------------------------------- */
 body {
 
 }
 
+.front h1.page-header {
+  display: none;
+}
+
+.logo img {
+  width: 350px;
+}
+
+#region-header {
+  margin-top: -120px;
+  padding-top: 120px;
+}
+
+#region-header .jumbotron h1 {
+  text-align: center;
+}
+
+.navbar-collapse {
+  float: right;
+}
+
+#region-prefix,
+#region-suffix {
+  margin: 70px 0;
+}
+
 .main-container {
-  background-color: #FBFBFB;
+  background-color: #efefef;
+  padding: 70px 0;
 }
 
 footer {
-  background-color: #4A494C;
+  background-color: #4a494c;
 }
 
 .footer-bottom {
-  background-color: #3C3C3E;
+  background-color: #3c3c3e;
 }
 
-/*  Typography
+/* Typography
  * ---------------------------------- */
+
+
+/* Navbar Toggle
+ * ---------------------------------- */
+.navbar-toggle {
+  background-color: #efefef;
+  border-radius: 30px;
+  margin-top: 15px;
+  margin-right: 0;
+  padding: 18px 15px;
+}
+
+.navbar-toggle .icon-bar {
+  width: 30px;
+  height: 5px;
+  border-radius: 3px;
+}
+
+/* Media Queries
+ * ---------------------------------- */
+@media (min-width: 1200px) {
+
+  #navbar .container {
+    padding: 0;
+  }
+
+  .navbar-header {
+    float: left;
+  }
+
+  .navbar-nav {
+    background: #fff;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+
+  .navbar-nav>li>a {
+    padding: 20px 10px;
+  }
+
+}
+
+@media (max-width: 540px) {
+  .logo img {
+    width: 200px;
+    margin-top: 17px;
+  }
+}
+
+/* Backend Styles
+ * ---------------------------------- */
+
+.nav-tabs {
+  margin-top: 15px;
+}

@@ -1,0 +1,83 @@
+<?php
+
+/**
+ * Implements hook_ckeditor_plugin()
+ * 
+ * @return type
+ */
+function ckeditor_bootstrap_ckeditor_plugin() {
+  $plugins = array();
+  $plugins['trifold'] = array(
+    'name' => 'trifold',
+    'desc' => t('Bootstrap Trifold Plugin'),
+    'path' => drupal_get_path('module', 'ckeditor_bootstrap') . '/plugins/trifold/',
+    'buttons' => array(
+      'Trifold' => array('label' => 'Trifold', 'icon' => 'icons/trifold.png'),
+    )
+  );
+  $plugins['twocol'] = array(
+    'name' => 'twocol',
+    'desc' => t('Bootstrap 2-col grid Plugin'),
+    'path' => drupal_get_path('module', 'ckeditor_bootstrap') . '/plugins/twocol/',
+    'buttons' => array(
+      'Twocol' => array('label' => 'Twocol', 'icon' => 'icons/twocol.png'),
+    )
+  );
+  $plugins['threecol'] = array(
+    'name' => 'threecol',
+    'desc' => t('Bootstrap 3-col grid Plugin'),
+    'path' => drupal_get_path('module', 'ckeditor_bootstrap') . '/plugins/threecol/',
+    'buttons' => array(
+      'Threecol' => array('label' => 'Threecol', 'icon' => 'icons/threecol.png'),
+    )
+  );
+  $plugins['fourcol'] = array(
+    'name' => 'fourcol',
+    'desc' => t('Bootstrap 4-col grid Plugin'),
+    'path' => drupal_get_path('module', 'ckeditor_bootstrap') . '/plugins/fourcol/',
+    'buttons' => array(
+      'Fourcol' => array('label' => 'Fourcol', 'icon' => 'icons/fourcol.png'),
+    )
+  );
+  $plugins['featurette'] = array(
+    'name' => 'featurette',
+    'desc' => t('Bootstrap Featurette Plugin'),
+    'path' => drupal_get_path('module', 'ckeditor_bootstrap') . '/plugins/featurette/',
+    'buttons' => array(
+      'Featurette' => array('label' => 'Featurette', 'icon' => 'icons/featurette.png'),
+    )
+  );
+  $plugins['carousel'] = array(
+    'name' => 'carousel',
+    'desc' => t('Bootstrap Carousel Plugin'),
+    'path' => drupal_get_path('module', 'ckeditor_bootstrap') . '/plugins/carousel/',
+    'buttons' => array(
+      'Carousel' => array('label' => 'Carousel', 'icon' => 'icons/carousel.png'),
+    )
+  );
+  $plugins['jumbotron'] = array(
+    'name' => 'jumbotron',
+    'desc' => t('Bootstrap Jumbotron Plugin'),
+    'path' => drupal_get_path('module', 'ckeditor_bootstrap') . '/plugins/jumbotron/',
+    'buttons' => array(
+      'Jumbotron' => array('label' => 'Jumbotron', 'icon' => 'icons/jumbotron.png'),
+    )
+  );
+  $plugins['simplebox'] = array(
+    'name' => 'simplebox',
+    'desc' => t('simplebox Plugin'),
+    'path' => drupal_get_path('module', 'ckeditor_bootstrap') . '/plugins/simplebox/',
+    'buttons' => array(
+      'Simplebox' => array('label' => 'Simplebox', 'icon' => 'icons/simplebox.png'),
+    )
+  );
+  $plugins['collapse'] = array(
+    'name' => 'collapse',
+    'desc' => t('Bootstrap Collapse Plugin'),
+    'path' => drupal_get_path('module', 'ckeditor_bootstrap') . '/plugins/collapse/',
+    'buttons' => array(
+      'Collapse' => array('label' => 'Collapse', 'icon' => 'icons/collapse.png'),
+    )
+  );
+  return $plugins;
+}
